@@ -1,0 +1,115 @@
+
+html {
+  font-size: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Century Gothic', sans-serif;
+  background: linear-gradient(90deg, rgba(137,189,67,1) 0%, rgba(121,193,83,0.9) 0%, rgba(25,131,126,0.9) 100%);
+}
+body {
+  width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 0px 10px 10px 10px;
+  border: 5px solid black;
+
+}
+pre {
+/*    font-family: 'Century Gothic', sans-serif;
+*/    margin-left: auto;
+    font-size: 13px;
+}
+
+body {
+/*  font-family: 'Century Gothic', sans-serif;
+*/  background-image: url(https://murmuration-sas.com/wp-content/uploads/2017/05/Logo-murmuration-blanc-e1557584051911.png);
+  background-repeat: no-repeat;
+  background-size: 150px 80px;
+  background-position: top 8px left 0px;
+}
+
+
+
+#block_container {
+  text-align:center;padding-top: 4px; padding-bottom: 4px
+}
+#bloc1, #bloc2{display:inline;}
+#bloc1 {
+  text-align: center;
+  letter-spacing: 3.5px;
+  font-weight: : 600;
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+#bloc2 {
+  font-weight: : 600;
+  font-size: 13px;
+}
+.chartBox 
+{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px; 
+}
+.indicator_buttons {
+  text-align:center;
+  align-content:center;
+  padding-bottom: 8px;
+}
+.button {
+  background-color: white;
+  border-radius: 6px;
+  color: rgb(0,165,159);
+  border-width: 1px;
+  border-color: rgb(0,165,159);
+  font-size: 18px;
+  font-style: bold;
+  transition-duration: 0.5s;
+}
+.button:hover {
+  background-color: rgb(0,165,159,0.5);
+  color: white;
+}
+.active {
+  background-color: rgb(0,165,159);
+  border-radius: 6px;
+  color: white;
+  border-width: 1px;
+  border-color: rgb(0,165,159);
+  font-size: 18px;
+  font-style: bold;
+  transition-duration: 0.5s;
+}
+.active:hover {
+  background-color: rgb(0,165,159,0.5);
+  color: white;
+}
+.explanationText {
+/*  font-family: 'Century Gothic', sans-serif;
+*/  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 4px;
+  padding-top: 6px;
+  font-size: 15px;
+}
+.AQGText {
+/*  font-family: 'Century Gothic', sans-serif;
+*/  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 13px;
+}
+
+a {
+  color: rgba(25,131,126,0.9);
+}
+a:hover {
+  color: rgba(137,189,67,1);
+}
